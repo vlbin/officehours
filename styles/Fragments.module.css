@@ -1,0 +1,34 @@
+.fragment {
+	width: 100%;
+	background-color: white;
+	padding: 16px;
+	border-radius: 4px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .04);
+}
+
+.fragment:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.container {
+	margin-top: 16px;
+	max-height: 100%;
+}
+
+.fragment h3 {
+	padding: 0 0 8px 0;
+	margin: 0;
+	border-bottom: 1px solid #ced4da;
+}
+
+.fragment p {
+	margin: 8px 0 0 0;
+}
+
+.fragmentContainer {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
