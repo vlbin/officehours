@@ -2,7 +2,7 @@ import styles from '../styles/Loader.module.css'
 
 const Loader = () => {
 	return (
-		<div className={styles.container}>loading</div>
+		<div className={styles.container}>⏳ Loading...</div>
 	)
 }
 
